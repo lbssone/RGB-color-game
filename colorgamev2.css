@@ -1,0 +1,87 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Pangolin";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;  /*讓邊變成圓角*/
+	transition: background 0.5s;
+	-webkit-transition: background: 0.5s;  /*這兩個是為了支援更多瀏覽器*/
+	-moz-transition: background: 0.5s;
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	background: #238ec4;
+	font-size: 55px;
+	line-height: 1.4;
+	color: white;
+	text-align: center;
+	margin: 0;
+	/*text-transform: uppercase;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	transition: background 0.5s;
+	-webkit-transition: background: 0.5s;  /*這兩個是為了支援更多瀏覽器*/
+	-moz-transition: background: 0.5s;
+	word-spacing: 15px;
+	letter-spacing: 2px;
+}
+
+#stripe {
+	background-color: white;
+	height: 32px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background: #238ec4;
+}
+
+#colorDisplay {
+	color: #c9f0ff;
+	font-size: 95%;
+	letter-spacing: 4px;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-family: "Pangolin";
+	height: 100%;
+	font-size: 21px;
+	color: #238ec4;
+	letter-spacing: 1px;
+	transition: all 0.3s;  /*讓他有漸進的效果，後面那個是秒數*/
+	-webkit-transition: background: 0.5s;  /*這兩個是為了支援更多瀏覽器*/
+	-moz-transition: background: 0.5s;
+	outline: none;  /*讓你點下去的時候按鈕周圍不會出現淺淺的框*/
+}
+
+#message {
+	display: inline-block;
+	width: 18%;
+	font-size: 20px;
+}
+
+button:hover {
+	color: white;
+	background-color: #238ec4;
+}
+
+#rgb {
+	font-size: 150%;
+}
